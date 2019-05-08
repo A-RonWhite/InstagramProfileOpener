@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styling.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Open+Sans|Roboto|Volkhov:700" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+                <div class="item1">
+                        <h1>Instagram Mass <br><span>Profile Opener</span></h1>
+                        <p>Drop your list of instagram profiles without the @'s below with spaces after each name. Most Instagram pods have a bot that will provide you a list like this</p>
+                        <form autocomplete="off">
+                        <input id="name-dump" type="text" class="form-control" aria-label="Instagram username" aria-describedby="button-addon2">
+                        <button class="" type="submit" id="submit">submit</button>
+                    </form>
+                    <p id="error"></p>
+        </div>
+        <div class="item2 toolbar">
+                <label for="Set-Delay">Set delay between tabs opening: </label>
+                <input type="number" id="range-value" min="1" value="3" name="Set-Delay">
+                <button type="button" id="tab-open">Open each in new tab</button>
+        </div>
+        <div class="handle-layout">
+            <p id="count"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
